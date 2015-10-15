@@ -80,3 +80,10 @@ Prelude> reverse [1,2,3,4,5,6]
 | :?                     | show all commands      |
 | :quit                  | quit GHCi              |
 
+### Some random notes:
+Putting a function name between single back quotes turns it into a infix operator. GHCi does not automatically detect changes in scripts, one must execute the reload command before using newly added definitions. Types begin with uppercase letters; function and argument names begin with lowercase letters. Whitespaces are significant in Haskell (layout rule).
+
+### For installing hugs on Ubuntu:
+- sudo apt-get install hugs
+- Hugs, also Hugs 98, is a bytecode interpreter for the functional programming language Haskell.
+
